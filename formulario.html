@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Estilo Premium</title>
+    <link rel="stylesheet" href="style-formulario.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="form-box">
+        
+        <h1 class="title">REGÍSTRATE</h1>
+        <p class="subtitle">Únete y disfruta de la mejor experiencia de sonido.</p>
+        
+        <form class="form" method="GET" action="grilla.html">
+            
+            <!-- Nombre -->
+            <div class="input-group">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez">
+            </div>
+            
+            <!-- Email -->
+            <div class="input-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com">
+            </div>
+            
+            <!-- Contraseña -->
+            <div class="input-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password">
+            </div>
+            
+            <!-- Edad -->
+            <div class="input-group">
+                <label for="edad">Edad</label>
+                <input type="number" id="edad" name="edad">
+            </div>
+            
+            <!-- País -->
+            <div class="input-group">
+                <label for="pais">País</label>
+                <select id="pais" name="pais">
+                    <option value="">-- Selecciona tu país --</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="mexico">México</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="espana">España</option>
+                </select>
+            </div>
+            
+            <!-- Comentarios -->
+            <div class="input-group">
+                <label for="comentarios">Comentarios</label>
+                <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe aquí tus comentarios..."></textarea>
+            </div>
+            
+            <!-- Términos -->
+            <div class="checkbox-group">
+                <input type="checkbox" id="terminos" name="terminos">
+                <label for="terminos">Acepto los términos y condiciones</label>
+            </div>
+            
+            <!-- Botones -->
+            <div class="buttons">
+                <button type="reset" class="btn-reset">Limpiar</button>
+                <button type="submit" class="btn-submit">Enviar</button>
+            </div>
+            
+        </form>
+        </div>
+    </div>
+    
+</body>
+</html>
